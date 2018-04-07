@@ -4,13 +4,17 @@
     "description": "Servidor back-end de adminpro",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon app.js"
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Francisco Lopez",
     "license": "ISC",
     "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.2",
         "express": "^4.16.3",
-        "mongoose": "^5.0.13"
+        "jsonwebtoken": "^8.2.1",
+        "mongoose": "^5.0.13",
+        "mongoose-unique-validator": "^2.0.0"
     }
 }
